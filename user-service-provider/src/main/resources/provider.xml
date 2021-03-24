@@ -16,4 +16,6 @@
 
     <bean id="userServiceImpl" class="com.dubbo.service.impl.UserServiceImpl"></bean>
 
+    <!--连接监控中心-->
+    <dubbo:monitor protocol="registry"></dubbo:monitor>
 </beans>

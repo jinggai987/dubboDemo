@@ -2,12 +2,14 @@ package com.dubbo.service.impl;
 
 import com.dubbo.bean.UserAddress;
 import com.dubbo.service.UserService;
-import org.springframework.stereotype.Service;
+import org.apache.dubbo.config.annotation.Service;
+import org.springframework.stereotype.Component;
 
 import java.util.Arrays;
 import java.util.List;
 
 @Service
+@Component
 public class UserServiceImpl implements UserService {
 
 	@Override

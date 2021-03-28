@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/boot-order-service-consumer/boot-order-service-consumer.iml" filepath="$PROJECT_DIR$/boot-order-service-consumer/boot-order-service-consumer.iml" />
       <module fileurl="file://$PROJECT_DIR$/boot-user-service-provider/boot-user-service-provider.iml" filepath="$PROJECT_DIR$/boot-user-service-provider/boot-user-service-provider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/boot-user-service-provider/demo.iml" filepath="$PROJECT_DIR$/boot-user-service-provider/demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/dubboDemo.iml" filepath="$PROJECT_DIR$/.idea/dubboDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/exposed-interface/exposed-interface.iml" filepath="$PROJECT_DIR$/exposed-interface/exposed-interface.iml" />
       <module fileurl="file://$PROJECT_DIR$/order-service-consumer/order-service-consumer.iml" filepath="$PROJECT_DIR$/order-service-consumer/order-service-consumer.iml" />

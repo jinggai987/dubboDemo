@@ -14,6 +14,11 @@ import java.util.List;
  * 		2）、配置服务提供者
  * 
  * 2、让服务消费者去注册中心订阅服务提供者的服务地址
+ *
+ * 3.dubbo配置覆盖策略
+ * 	3.1 jvm启动-D [-Ddubbo.protocol.port=20882]
+ * 	3.2 application.properties
+ * 	3.3 dubbo.properties
  * @author lfy
  *
  */

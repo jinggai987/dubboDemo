@@ -6,11 +6,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="user-service-provider" />
         <module name="boot-user-service-provider" />
+        <module name="exposed-interface" />
+        <module name="user-service-provider" />
         <module name="boot-order-service-consumer" />
         <module name="demo" />
-        <module name="exposed-interface" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>

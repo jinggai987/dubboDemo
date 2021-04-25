@@ -1,4 +1,4 @@
-package com.dubbo.service;
+package com.dubbo;
 
 import org.apache.dubbo.config.spring.context.annotation.EnableDubbo;
 import org.springframework.boot.SpringApplication;
@@ -12,8 +12,9 @@ import org.springframework.context.annotation.ImportResource;
  * 3.使用注解api,将每一个组件手动创建到容器中,让dubbo来扫描其他的组件
  */
 //@EnableDubbo
-//@ImportResource(locations = "classpath:provider.xml")
- @EnableDubbo(scanBasePackages = "com.dubbo")
+@ImportResource(locations = "classpath:provider.xml")
+//@EnableDubbo(scanBasePackages="com.dubbo")
+//@DubboComponentScan(basePackages ="com.dubbo")
 @SpringBootApplication
 public class BootUserServiceProviderApplication {
 

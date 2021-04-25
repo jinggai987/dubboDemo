@@ -4,7 +4,7 @@
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://code.alibabatech.com/schema/dubbo http://code.alibabatech.com/schema/dubbo/dubbo.xsd">
 
     <!-- 指定dubbo命名空间 -->
-    <dubbo:application name="boot-user-service-provider"></dubbo:application>
+    <dubbo:application name="boot-usr-service-provider"></dubbo:application>
 
     <!-- 指定注册中心协议和位置 -->
     <dubbo:registry protocol="zookeeper" address="127.0.0.1:2181"></dubbo:registry>

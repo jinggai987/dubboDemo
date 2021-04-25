@@ -12,5 +12,7 @@
         <module>user-service-provider</module>
         <module>order-service-consumer</module>
         <module>exposed-interface</module>
+        <module>boot-order-service-consumer</module>
+        <module>boot-usr-service-provider</module>
     </modules>
 </project>

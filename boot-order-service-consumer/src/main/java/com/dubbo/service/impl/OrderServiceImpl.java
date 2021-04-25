@@ -1,5 +1,6 @@
 package com.dubbo.service.impl;
 
+import com.alibaba.dubbo.config.annotation.Reference;
 import com.dubbo.bean.UserAddress;
 import com.dubbo.service.OrderService;
 import com.dubbo.service.UserService;
@@ -25,7 +26,8 @@ import java.util.List;
 @Service
 public class OrderServiceImpl implements OrderService {
 
-	@Autowired
+//	@Autowired
+	@Reference
 	UserService userService;
 	@Override
 	public List<UserAddress> initOrder(String userId) {
